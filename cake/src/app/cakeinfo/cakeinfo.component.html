@@ -1,0 +1,12 @@
+<div class="infowrapper">
+  <h3>Baked by {{cakeToShow.baker}}</h3>
+  <p>Average rating: {{avg}} stars</p>
+  <img src="{{cakeToShow.image}}" alt="notfound">
+  
+    <div *ngFor="let rating of cakeToShow.ratings" class="rating">
+        <div *ngIf="rating.rates.length>0">
+                <p>Rating: {{rating.rates}} Stars</p>
+                <p>Comment: {{rating.comments}} </p> 
+        </div>
+    </div>
+</div>

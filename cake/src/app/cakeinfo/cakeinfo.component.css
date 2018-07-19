@@ -1,0 +1,16 @@
+
+.infowrapper > img{
+    width: 35%;
+    display: inline-block;
+}
+
+.rating{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rates{
+    display: inline-block;
+}
+

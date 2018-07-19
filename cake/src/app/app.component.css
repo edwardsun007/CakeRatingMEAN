@@ -1,0 +1,75 @@
+.create{
+    width: 30%;
+    border: 1px solid grey;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.create > h4{
+    color: grey;
+    border-bottom: 1px solid skyblue;
+    padding-bottom: 5px;
+}
+
+.create > form > label{
+    display: block;
+    text-align: left;
+}
+
+.create > form > input{
+    display: block;
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#submit{
+    color: white;
+    background-color: skyblue;
+    font-size: 1.5em;
+    margin-top: 2%;
+}
+
+.showCakes{
+    overflow: scroll;
+    width: 40%;
+    height: 260px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+}
+
+.rateSub{
+    color: white;
+    background: linear-gradient(to bottom,white,grey);
+}
+
+.cake > img{
+    width: 30%;
+    display: inline-block;
+}
+
+
+.rating{
+    display:inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-left: 4%;
+}
+.rating > select{
+    display: block;
+    height: 25px;
+    width: 70%;
+    margin-bottom: 3%;
+}
+.rating > input{
+    display: block;
+    height: 30px;
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+.rateSub{
+    width: 40%;
+}
